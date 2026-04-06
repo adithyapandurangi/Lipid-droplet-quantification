@@ -1,6 +1,6 @@
 # ============================================================
 # LIVERQUANT - Run each .svs file one at a time
-# Just change SLIDES_FOLDER to your folder path
+# Just change SLIDES_FOLDER, Output locations to your folder path
 # ============================================================
 
 from liverquant import detect_fat_globules_wsi
@@ -11,11 +11,11 @@ import numpy as np
 import csv, os, glob
 
 # ---- CHANGE THIS TO YOUR FOLDER ----
-SLIDES_FOLDER = r"C:\Users\DEEPIKA\lipid quant"
+SLIDES_FOLDER = r"C:\Users\......(address)"
 
 # ---- OUTPUT (saved to Desktop automatically) ----
-OUTPUT_CSV            = r"C:\Users\DEEPIKA\Desktop\PerinuclearLipid_Results.csv"
-OUTPUT_GEOJSON_FOLDER = r"C:\Users\DEEPIKA\Desktop\geojson_outputs"
+OUTPUT_CSV            = r"C:\Users\......(address)\PerinuclearLipid_Results.csv"
+OUTPUT_GEOJSON_FOLDER = r"C:\Users\......(address)geojson_outputs"
 
 # ---- DETECTION SETTINGS ----
 LOWERB              = [0, 0, 200]
